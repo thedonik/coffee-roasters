@@ -50,7 +50,7 @@ body {
   margin: 0;
   padding: 0;
   background: #f2f2f2;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 main {
   flex-grow: 1;
@@ -174,7 +174,7 @@ img {
 .hero__title {
   margin: 0;
   margin-bottom: 32px;
-  font-family: "Fraunces" sans-serif;
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -268,6 +268,7 @@ img {
 .collection__inner {
   width: 100%;
   max-width: 1111px;
+  min-height: 525px;
   margin: 0 auto;
   background-image: url("../images/collection-bg.png");
   background-repeat: no-repeat;
@@ -275,12 +276,7 @@ img {
   background-size: 100%;
 }
 
-.collection__content {
-  padding-top: 126px;
-  width: 100%;
-  max-width: 1111px;
-  margin: 0 auto;
-}
+
 
 .collection__list {
   margin: 0;
