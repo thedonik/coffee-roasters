@@ -62,6 +62,7 @@ img {
   vertical-align: middle;
   object-fit: cover;
 }
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -589,8 +590,6 @@ img {
   margin-left: 729px;
 }
 
-.work__content {
-}
 .work__list {
   display: flex;
   align-items: center;
@@ -654,9 +653,219 @@ img {
   padding: 47px 85px;
 }
 
-
-
-
-.social-links{
+.social-links {
   margin-left: auto;
+}
+
+.icon {
+  margin-right: 24px;
+}
+
+.about-hero {
+  padding-bottom: 168px;
+}
+.about-hero__inner {
+  padding: 137px;
+  background-image: url("../images/about-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+.about-hero__content {
+  width: 100%;
+  max-width: 445px;
+}
+.about-her__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.about-hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+
+.commit {
+  padding-bottom: 244px;
+}
+.commit__inner {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 65px;
+}
+
+.commit__content {
+  width: 100%;
+  max-width: 540px;
+}
+
+.commit__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+.commit__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality {
+  padding-bottom: 168px;
+}
+
+.quality__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 167px 88px;
+  background: #2c343e;
+  border-radius: 10px;
+}
+.quality__content {
+  width: 100%;
+  max-width: 540px;
+}
+.quality__title {
+  margin: 0;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+
+.quality__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality__pic {
+  top: -80px;
+  right: 85px;
+  width: 445px;
+  height: 550px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.location {
+  padding-bottom: 168px;
+}
+
+.location__inner {
+  width: 100%;
+  max-width: 1045px;
+  margin: 0 150px 0 85px;
+}
+.location__title {
+  margin-bottom: 72px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+.location__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.location__item {
+  padding: 0;
+}
+
+.uk::before {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/uk.svg");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  margin-bottom: 46px;
+}
+
+.canada::before {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/canada.svg");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  margin-bottom: 46px;
+}
+
+.australia::before {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/australia.svg");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  margin-bottom: 46px;
+}
+
+.location__heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.location__sublist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.location__subitem {
+  margin: 0;
+}
+
+.location__subitem * {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  text-decoration: none;
 }
