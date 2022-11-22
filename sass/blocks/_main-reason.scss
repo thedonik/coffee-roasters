@@ -1,0 +1,117 @@
+
+.reason {
+  padding-bottom: 382px;
+}
+
+.reason__content {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.reason__inner {
+  position: relative;
+  padding: 112px 85px 0 85px;
+  background-color: #333d4b;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reason__title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.reason__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.reason__desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.reason__list {
+  margin: 0;
+  position: relative;
+  top: 130px;
+  padding: 0;
+  width: 100%;
+  max-width: 1110px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reason__item {
+  padding: 72px 48px 48px;
+  width: 100%;
+  max-width: 350px;
+  background: #0e8784;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.reason-box__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.reason-box__text::before {
+  margin: 0 auto;
+  margin-bottom: 56px;
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-image: url("../images/coffee-bean.svg");
+  background-repeat: no-repeat;
+}
+
+.box-2::before {
+  content: "";
+  background-image: url("../images/gift.svg");
+}
+
+.box-3::before {
+  content: "";
+  background-image: url("../images/truck.svg");
+}
+
+.reason-box__desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

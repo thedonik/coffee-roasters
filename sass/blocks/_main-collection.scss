@@ -1,0 +1,51 @@
+
+.collection {
+  padding-bottom: 144px;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1111px 196px;
+  background-color: #f2f2f2;
+}
+.collection__inner {
+  width: 100%;
+  max-width: 1111px;
+  min-height: 525px;
+  margin: 0 auto;
+}
+
+.collection__list {
+  margin: 0;
+  padding: 0;
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.collection__item {
+  width: 100%;
+  max-width: 255px;
+  text-align: center;
+}
+.collection__title {
+  margin: 0;
+  margin: 71px 0 24px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.collection__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+

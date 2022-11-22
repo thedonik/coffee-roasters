@@ -1,0 +1,96 @@
+
+.work {
+  padding-bottom: 320px;
+}
+
+.work__title {
+  margin: 0;
+  margin-bottom: 80px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.line {
+  width: 100%;
+  max-width: 729px;
+  position: relative;
+  margin-bottom: 76px;
+  border: 2px solid #fdd6ba;
+  background-color: #f2f2f2;
+}
+
+.line__spot {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -15px;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+  background: #fefcf7;
+}
+
+
+.spot-2 {
+  margin-left: 349px;
+}
+
+.spot-3 {
+  margin-left: 729px;
+}
+
+.work__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.work__item {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 285px;
+}
+.work__item::before {
+  display: inline-block;
+  content: "";
+  width: 90px;
+  height: 72px;
+  background-image: url("../images/01.svg");
+  background-repeat: no-repeat;
+  background-size: 90px 72px;
+  margin-bottom: 32px;
+}
+
+.second::before {
+  background-image: url("../images/02.svg");
+}
+
+.third::before {
+  background-image: url("../images/03.svg");
+}
+
+.work__heading {
+  margin: 0;
+  margin-bottom: 42px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.work__text {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}

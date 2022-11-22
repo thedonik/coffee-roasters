@@ -1,0 +1,36 @@
+.commit {
+  padding-bottom: 244px;
+}
+.commit__inner {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 65px;
+}
+
+.commit__content {
+  width: 100%;
+  max-width: 540px;
+}
+
+.commit__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+.commit__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

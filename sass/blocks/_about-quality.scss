@@ -1,0 +1,46 @@
+
+.quality {
+  padding-bottom: 168px;
+}
+
+.quality__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 167px 88px;
+  background: #2c343e;
+  border-radius: 10px;
+}
+.quality__content {
+  width: 100%;
+  max-width: 540px;
+}
+.quality__title {
+  margin: 0;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+
+.quality__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality__pic {
+  top: -80px;
+  right: 85px;
+  width: 445px;
+  height: 550px;
+  position: absolute;
+  border-radius: 10px;
+}
